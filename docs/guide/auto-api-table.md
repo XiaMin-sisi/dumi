@@ -11,7 +11,7 @@ order: 2
 
 - API 表格仅支持展示解析出的顶层属性
 - `@description` 不支持多语言配置
-- Windows 操作系统上会工作不正常，目前不建议使用
+- Windows 操作系统上会工作不正常，目前不建议使用（只是编译阶段的问题，使用其他系统编译后生成的文档，windows上是可以正常查看的 ）
 :::
 
 dumi 支持基于 JSDoc 及 TypeScript 类型定义自动为 React 组件生成 API 表格，降低 API 文档的维护成本。
